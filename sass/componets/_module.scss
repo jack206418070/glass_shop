@@ -3,13 +3,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: $font-s;
     cursor: pointer;
-    font-weight: bold;
+    border: none;
+    &:hover{
+        background-color: $secondary;
+        color: $white;
+        font-weight: 900;
+    }
 }
 
 .btn-primary{
     background-color: $primary;
+}
+.btn-m{
+    width: 33%;
 }
 
 .btn-secondary{
@@ -136,11 +143,9 @@
 /* form set */
 form{
     .form-group{
-        margin-top: 10px;
-        margin-bottom: 5px;
         .checkbox{
-            width: 16px;
-            height: 16px;
+            width: 24px;
+            height: 24px;
             border: none;
             margin: 0;
         }

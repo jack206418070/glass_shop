@@ -1,1 +1,425 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+/*pure  color */
+/* font-family */
+/* font-color */
+/* web color */
+/* font-size set */
+/* width set */
+/* circle write */
+/* 圖片取代文字 */
+/* bg setting */
+/* RWD mixin */
+.container {
+  padding: 0;
+}
+
+.outside-p {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .outside-p {
+    padding-top: 40px;
+    padding-bottom: 56px;
+    padding-right: 39px;
+    padding-left: 39px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .outside-p {
+    padding-top: 32px;
+    padding-bottom: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+.banner {
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 840px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+  .banner {
+    height: 394px;
+  }
+}
+
+.banner .banner-text {
+  max-width: 576px;
+  left: 939px;
+  top: 384px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.banner .banner-text p {
+  font-size: 64px;
+  line-height: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner .banner-text {
+    width: 432px;
+    left: 298px;
+    right: 38.5px;
+  }
+  .banner .banner-text h3 {
+    font-size: 20px;
+  }
+  .banner .banner-text p {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner .banner-text {
+    width: 288px;
+    top: 164px;
+    left: 72px;
+  }
+  .banner .banner-text h3 {
+    font-size: 16px;
+  }
+  .banner .banner-text p {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about .about-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.about .about-content li {
+  text-align: center;
+}
+
+.about .about-content li img {
+  vertical-align: middle;
+  max-width: 100px;
+  height: 100px;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .about .about-content li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    margin-bottom: 45px;
+  }
+  .about .about-content li p {
+    width: 255px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about .about-content li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    margin-bottom: 45px;
+  }
+  .about .about-content li p {
+    width: 255px;
+    margin: 0 auto;
+  }
+}
+
+.classic .classic-content {
+  font-style: italic;
+}
+
+.classic .classic-content li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.classic .classic-content li img {
+  max-width: 635px;
+  height: 320px;
+  vertical-align: middle;
+}
+
+.classic .classic-content li h3 {
+  line-height: 63px;
+}
+
+.classic .classic-content li .icon {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .classic .classic-content li {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .classic .classic-content li img {
+    max-width: 390px;
+    height: 168px;
+  }
+  .classic .classic-content li h3 {
+    line-height: 37px;
+    font-size: 28px;
+  }
+  .classic .classic-content li .icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+  }
+  .classic .classic-content li .mr-md-8 {
+    margin-right: 32px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .classic .classic-content li {
+    display: block;
+    position: relative;
+  }
+  .classic .classic-content img {
+    width: 345px;
+    height: 134px;
+  }
+  .classic .classic-content .icon {
+    top: 0;
+    right: 245px;
+    left: 64px;
+    bottom: 0;
+    margin: auto !important;
+  }
+  .classic .classic-content h3 {
+    width: 114px;
+    height: 37px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto !important;
+  }
+}
+
+.design {
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.design .cover {
+  background: #ffffff;
+  opacity: 0.7;
+  position: absolute;
+  height: 455px;
+  width: 100%;
+}
+
+.design .design-content-item {
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48.75%;
+          flex: 0 0 48.75%;
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/product-8.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 455px;
+}
+
+.design .design-content-item-second {
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48.75%;
+          flex: 0 0 48.75%;
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/product-9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 455px;
+}
+
+.design p {
+  height: 95px;
+  width: 332px;
+  font-size: 72px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .design .cover {
+    height: 278px;
+  }
+  .design .design-content-item, .design .design-content-item-second {
+    height: 278px;
+    width: 330px;
+  }
+  .design p {
+    font-size: 32px;
+    height: 43px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .design .design-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .design .cover {
+    height: 291px;
+  }
+  .design .design-content-item {
+    margin-bottom: 16px;
+  }
+  .design .design-content-item, .design .design-content-item-second {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    height: 291px;
+    width: 345px;
+  }
+}
+
+.recommend .recommend-content li {
+  border: 1px solid #DEE2E6;
+  -webkit-box-shadow: 3px 3px 3px #DEE2E6;
+          box-shadow: 3px 3px 3px #DEE2E6;
+}
+
+.recommend .recommend-content img {
+  vertical-align: middle;
+  width: 256px;
+  height: 255px;
+}
+
+.recommend .recommend-content .recommend-content-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 240px;
+}
+
+@media screen and (max-width: 768px) {
+  .recommend .recommend-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .recommend .recommend-content li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 47.75%;
+            flex: 0 0 47.75%;
+    margin-bottom: 32px;
+  }
+  .recommend .recommend-content img {
+    width: 330px;
+    height: 255px;
+  }
+  .recommend .recommend-content br {
+    content: "";
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .recommend .recommend-content li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    margin-bottom: 16px;
+  }
+  .recommend .recommend-content img {
+    width: 345px;
+    height: 256px;
+  }
+  .recommend .recommend-content br {
+    content: "";
+    display: none;
+  }
+  .recommend .recommend-content .recommend-content-item {
+    height: 204px;
+  }
+}
+
+.connection h3 {
+  max-width: 730px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .connection {
+    padding-right: 159px;
+    padding-left: 159px;
+  }
+  .connection br {
+    content: "";
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .connection {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+form {
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+form input, form textarea {
+  width: 100%;
+  background-color: #FBF2F2;
+  padding: 12px 0px 12px 16px;
+}
+
+form p {
+  font-size: 16px;
+}
+
+form .btn-p {
+  padding: 12px 16px;
+}
+/*# sourceMappingURL=index.css.map */

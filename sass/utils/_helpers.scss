@@ -59,6 +59,13 @@ $helper-flex:(
     margin-bottom: 0;
 }
 
+.mr-md-0{
+    margin-right: 0 !important;
+}
+.mr-md-8{
+    margin-right: 32px;
+}
+
 /* padding set */
 
 @each $key, $value in $helper-sizes{
@@ -87,31 +94,58 @@ $helper-flex:(
     }
 }
 
-@for $i from 1 through 10{
+@for $i from 1 through 20{
     .pt-#{$i}{
-        padding-top: $i * 10 + px;
+        padding-top: $i * 4 + px;
     }
     .pb-#{$i}{
-        padding-bottom: $i * 10 + px;
+        padding-bottom: $i * 4 + px;
     }
     .pr-#{$i}{
-        padding-right: $i * 10 + px;
+        padding-right: $i * 4 + px;
     }
     .pl-#{$i}{
-        padding-left: $i * 10 + px;
+        padding-left: $i * 4 + px;
     }
     .py-#{$i}{
-        padding-top: $i * 10 + px;
-        padding-bottom: $i * 10 + px;
+        padding-top: $i * 4 + px;
+        padding-bottom: $i * 4 + px;
     }
     .px-#{$i}{
-        padding-left: $i * 10 + px;
-        padding-right: $i * 10 + px;
+        padding-left: $i * 4 + px;
+        padding-right: $i * 4 + px;
     }
     .p-#{$i}{
-        padding: $i * 10 + px;
+        padding: $i * 4 + px;
     }
 }
+
+@for $i from 1 through 20{
+    .mt-#{$i}{
+        margin-top: $i * 4 + px;
+    }
+    .mb-#{$i}{
+        margin-bottom: $i * 4 + px;
+    }
+    .mr-#{$i}{
+        margin-right: $i * 4 + px;
+    }
+    .ml-#{$i}{
+        margin-left: $i * 4 + px;
+    }
+    .my-#{$i}{
+        margin-top: $i * 4 + px;
+        margin-bottom: $i * 4 + px;
+    }
+    .mx-#{$i}{
+        margin-left: $i * 4 + px;
+        margin-right: $i * 4 + px;
+    }
+    .m-#{$i}{
+        margin: $i * 4 + px;
+    }
+}
+
 
 
 /* dispay set */
@@ -148,7 +182,7 @@ $helper-flex:(
 }
 
 
-.flex-dir-row-reverse{
+.flex-d-rr{
     flex-direction: row-reverse;
 }
 
@@ -162,7 +196,15 @@ $helper-flex:(
     }
 }
 
-
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
 
 /* text set */
 
@@ -229,6 +271,9 @@ $helper-flex:(
     &white{
         background-color: $white;
     }
+    &light{
+        background-color: #FBF2F2;
+    }
 }
 
 .bg-none{
@@ -271,6 +316,14 @@ $helper-flex:(
 
 
 /* font-style */
+.f-f-en{
+    font-family: $font-english;
+}
+
+.f-f-ch{
+    font-family: $font-chinese;
+}
+
 .f-w-bold{
     font-weight: bold;
 }
@@ -313,7 +366,14 @@ $helper-flex:(
 .p-absolute{
     position: absolute;
 }
-
+@include mobile{
+    .p-sm-absolute{
+        position: absolute;
+    }
+    .p-sm-relative{
+        position: relative;
+    }
+}
 
 /* z-index */
 
@@ -344,22 +404,22 @@ $helper-flex:(
 
 /* f-size set */
 
+.f-size-base{
+    font-size: $font-base;
+}
+
 .f-size-xs{
-    font-size: $font-base * 1.1;
+    font-size: $font-xs;
 }
 
 .f-size-s{
-    font-size: $font-base * 1.25;
+    font-size: $font-s;
 }
 
 .f-size-m{
-    font-size: $font-base * 1.5;
+    font-size: $font-m;
 }
 
 .f-size-l{
-    font-size: $font-base * 2;
-}
-
-.f-size-xl{
-    font-size: $font-base * 3;
+    font-size: $font-l;
 }
