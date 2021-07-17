@@ -286,12 +286,13 @@ body {
   margin-bottom: 0;
 }
 
-.mr-md-0 {
-  margin-right: 0 !important;
-}
-
-.mr-md-8 {
-  margin-right: 32px;
+@media screen and (max-width: 768px) {
+  .mr-md-0 {
+    margin-right: 0 !important;
+  }
+  .mr-md-8 {
+    margin-right: 32px;
+  }
 }
 
 /* padding set */
