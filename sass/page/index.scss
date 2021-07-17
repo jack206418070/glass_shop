@@ -29,7 +29,7 @@
     }
     .banner-text{
         width: 33.33%;
-        left: 939px;
+        left: 48%;
         top: 384px;
         right: 0;
         bottom: 0;
@@ -40,7 +40,7 @@
         }
         @include pad{
             width: 60%;
-            left: 298px;
+            left: 38%;
             right: 38.5px;
             h3{
                 font-size: $font-xs;
@@ -52,7 +52,7 @@
         @include mobile{
             width: 80%;
             top: 164px;
-            left: 72px;
+            left: 19%;
             h3{
                 font-size: $font-base;
             }
