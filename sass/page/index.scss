@@ -28,7 +28,7 @@
         height: 394px;
     }
     .banner-text{
-        max-width: 576px;
+        width: 33.33%;
         left: 939px;
         top: 384px;
         right: 0;
@@ -39,7 +39,7 @@
             line-height: 92px;
         }
         @include pad{
-            width: 432px;
+            width: 60%;
             left: 298px;
             right: 38.5px;
             h3{
@@ -50,7 +50,7 @@
             }
         }
         @include mobile{
-            width: 288px;
+            width: 80%;
             top: 164px;
             left: 72px;
             h3{

@@ -54,7 +54,7 @@
 }
 
 .banner .banner-text {
-  max-width: 576px;
+  width: 33.33%;
   left: 939px;
   top: 384px;
   right: 0;
@@ -69,7 +69,7 @@
 
 @media screen and (max-width: 768px) {
   .banner .banner-text {
-    width: 432px;
+    width: 60%;
     left: 298px;
     right: 38.5px;
   }
@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 375px) {
   .banner .banner-text {
-    width: 288px;
+    width: 80%;
     top: 164px;
     left: 72px;
   }
