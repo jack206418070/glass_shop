@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+/*pure  color */
+/* font-family */
+/* font-color */
+/* web color */
+/* font-size set */
+/* width set */
+/* circle write */
+/* 圖片取代文字 */
+/* bg setting */
+/* RWD mixin */
+.question {
+  margin-bottom: 128px;
+}
+
+.question h3 {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.question .question-content h4 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.question .question-content p {
+  margin-left: 95px;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .question {
+    padding-right: 39px;
+    padding-left: 39px;
+    margin-bottom: 72px;
+  }
+  .question .title-sm {
+    margin-bottom: 40px;
+  }
+  .question p {
+    margin-left: 60px;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .question {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 60px;
+  }
+  .question .title-sm {
+    margin-bottom: 24px;
+    font-size: 28px;
+  }
+  .question h3 {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  .question .question-content h4 {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .question .question-content p {
+    font-size: 14px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=question.css.map */
