@@ -13,7 +13,8 @@ $helper-flex:(
     'around': space-around,
     'start': flex-start,
     'end': flex-end,
-    'stretch': stretch
+    'stretch': stretch,
+    'baseline': baseline
 );
 
 
@@ -140,6 +141,12 @@ $helper-flex:(
     }
 }
 
+.p-0{
+    padding: 0 !important;
+}
+.mb-0{
+    margin-bottom: 0 !important;
+}
 
 @include pad{
     .mr-md-0{
@@ -148,13 +155,33 @@ $helper-flex:(
     .mr-md-8{
         margin-right: 32px;
     }
+    .mb-md-6{
+        margin-bottom: 24px !important;
+    }
+    .mb-md-15{
+        margin-bottom: 60px !important;
+    }
     .mb-md-24{
         margin-bottom: 96px !important;
     }
+
+    .p-md-0{
+        padding: 0 !important; 
+    }
+    .py-md-4{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
 }
 @include mobile{
+    .mb-sm-7{
+        margin-bottom: 28px !important;
+    }
     .mb-sm-14{
         margin-bottom: 56px !important;
+    }
+    .m-sm-0{
+        margin: 0 !important;
     }
 }
 
@@ -172,12 +199,24 @@ $helper-flex:(
     display: inline-block;
 }
 
+@include pad{
+    .d-md-block{
+        display: block !important;
+    }
+    .d-md-none{
+        display: none;
+    }
+    .d-md-flex{
+        display: flex;
+    }
+}
+
 @include mobile{
     .d-sm-block{
-        display: block;
+        display: block !important;
     }
     .d-sm-none{
-        display: none;
+        display: none !important;
     }
 }
 
@@ -203,6 +242,13 @@ $helper-flex:(
 
 .flex-wrap{
     flex-wrap: wrap;
+}
+
+.flex-set-40{
+    flex: 0 0 40% !important;
+}
+.flex-set-50{
+    flex: 0 0 50% !important;
 }
 
 
@@ -311,6 +357,10 @@ $helper-flex:(
     border: 1px solid $thirdary;
 }
 
+.bl-primary-2{
+    border-left: 8px solid $primary;
+}
+
 
 .border-secondary{
     border: 1px solid $secondary;
@@ -337,7 +387,22 @@ $helper-flex:(
     border-bottom: 2px solid $white;
 }
 
-
+@include pad{
+    .b-md-none{
+        border: 0 !important;
+    }
+    .b-md-1{
+        border: 1px solid #DCDCDC;
+    }
+}
+@include mobile{
+    .b-sm-none{
+        border: 0 !important;
+    }
+    .b-sm-1{
+        border: 1px solid #DCDCDC !important;
+    }
+}
 
 /* font-style */
 .f-f-en{

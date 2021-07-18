@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+/*pure  color */
+/* font-family */
+/* font-color */
+/* web color */
+/* font-size set */
+/* width set */
+/* circle write */
+/* 圖片取代文字 */
+/* bg setting */
+/* RWD mixin */
+.loctions {
+  margin-bottom: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  .loctions {
+    padding-right: 39px;
+    padding-left: 39px;
+    margin-bottom: 108px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .loctions {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 40px;
+  }
+}
+
+.loctions .select-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loctions .select-block label {
+  font-size: 24px;
+}
+
+.loctions .select-block select {
+  width: 324px;
+  height: 45px;
+}
+
+@media screen and (max-width: 375px) {
+  .loctions .select-block label {
+    font-size: 14px;
+  }
+  .loctions .select-block select {
+    margin-left: 12px;
+    width: 277px;
+    height: 36px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .map {
+    margin-bottom: 96px;
+    padding-right: 39px;
+    padding-left: 39px;
+  }
+  .map .card {
+    margin-bottom: 32px !important;
+  }
+  .map .card > img {
+    height: 164px;
+    margin-right: 2%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .map {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .map .card {
+    margin-bottom: 16px !important;
+  }
+}
+/*# sourceMappingURL=loctions.css.map */
