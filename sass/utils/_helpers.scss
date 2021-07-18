@@ -59,15 +59,6 @@ $helper-flex:(
     margin-bottom: 0;
 }
 
-@include pad{
-    .mr-md-0{
-        margin-right: 0 !important;
-    }
-    .mr-md-8{
-        margin-right: 32px;
-    }
-}
-
 
 /* padding set */
 
@@ -123,7 +114,7 @@ $helper-flex:(
     }
 }
 
-@for $i from 1 through 20{
+@for $i from 1 through 40{
     .mt-#{$i}{
         margin-top: $i * 4 + px;
     }
@@ -150,14 +141,44 @@ $helper-flex:(
 }
 
 
+@include pad{
+    .mr-md-0{
+        margin-right: 0 !important;
+    }
+    .mr-md-8{
+        margin-right: 32px;
+    }
+    .mb-md-24{
+        margin-bottom: 96px !important;
+    }
+}
+@include mobile{
+    .mb-sm-14{
+        margin-bottom: 56px !important;
+    }
+}
+
 
 /* dispay set */
 .d-block{
     display: block;
 }
 
+.d-none{
+    display: none;
+}
+
 .d-inline-block{
     display: inline-block;
+}
+
+@include mobile{
+    .d-sm-block{
+        display: block;
+    }
+    .d-sm-none{
+        display: none;
+    }
 }
 
 

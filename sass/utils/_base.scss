@@ -2,9 +2,16 @@ body{
     line-height: 1.5;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 .container{
     max-width: $max-width;
     margin: 0 auto;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
 }
 
 .title-sm{

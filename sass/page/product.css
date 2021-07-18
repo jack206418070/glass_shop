@@ -1,0 +1,251 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+/*pure  color */
+/* font-family */
+/* font-color */
+/* web color */
+/* font-size set */
+/* width set */
+/* circle write */
+/* 圖片取代文字 */
+/* bg setting */
+/* RWD mixin */
+@media screen and (max-width: 768px) {
+  .product-menu ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.product-menu li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 5px solid transparent;
+  cursor: pointer;
+  width: 370px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-right: 1px solid #DCDCDC;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.product-menu li:first-child {
+  border-left: 1px solid #DCDCDC;
+}
+
+.product-menu li:hover, .product-menu li.active {
+  border-bottom: 5px solid #AA0601;
+}
+
+.product-menu li img {
+  height: 48px;
+  width: 48px;
+  margin-right: 8px;
+}
+
+.product-menu li a {
+  color: #000000;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .product-menu li {
+    width: 230px;
+  }
+  .product-menu li img {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+  }
+  .product-menu li a {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .product-menu li {
+    width: 115px;
+    height: 30px;
+    padding: 0 10px;
+    padding-top: 5px;
+    margin: 0;
+  }
+  .product-menu li img {
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+  }
+  .product-menu li a {
+    font-size: 14px;
+  }
+}
+
+.banner .banner-one {
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/banner-3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  height: 304px;
+}
+
+.banner .banner-two {
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/product-2-color.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  height: 304px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner {
+    margin-bottom: 32px;
+  }
+  .banner .banner-one {
+    height: 148px;
+  }
+  .banner .banner-two {
+    height: 148px;
+  }
+}
+
+.product {
+  margin-bottom: 54px;
+}
+
+.product .title-sm {
+  font-size: 42px;
+}
+
+.product h3 {
+  font-size: 32px;
+}
+
+.product li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 31.5%;
+          flex: 0 0 31.5%;
+  margin-bottom: 104px;
+}
+
+.product li img {
+  width: 350px;
+  height: 224px;
+  vertical-align: middle;
+}
+
+.product li .product-item-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product li .product-item-text .price {
+  color: #AA0601;
+}
+
+.product li .product-item-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product li .product-item-color .color-one {
+  width: 24px;
+  height: 24px;
+  background-color: #5F3E2D;
+  margin-right: 8px;
+}
+
+.product li .product-item-color .color-two {
+  width: 24px;
+  height: 24px;
+  background-color: #B75929;
+}
+
+@media screen and (max-width: 768px) {
+  .product {
+    margin-bottom: 20px;
+    padding-right: 39px;
+    padding-left: 39px;
+  }
+  .product .title-sm {
+    font-size: 32px;
+  }
+  .product h3 {
+    font-size: 24px;
+  }
+  .product .product-item {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .product li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 48%;
+            flex: 0 0 48%;
+    margin-bottom: 72px;
+  }
+  .product li img {
+    width: 330px;
+    height: 164px;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .product {
+    margin-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .product .title-sm {
+    font-size: 20px;
+  }
+  .product h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .product li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    margin-bottom: 32px;
+  }
+  .product li img {
+    width: 345px;
+    height: 166px;
+    vertical-align: middle;
+  }
+  .product li .product-item-text {
+    font-size: 16px;
+  }
+  .product li .color-one, .product li .color-two {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+  }
+}
+/*# sourceMappingURL=product.css.map */
