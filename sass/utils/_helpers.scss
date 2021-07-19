@@ -204,7 +204,7 @@ $helper-flex:(
         display: block !important;
     }
     .d-md-none{
-        display: none;
+        display: none !important;
     }
     .d-md-flex{
         display: flex;
@@ -343,6 +343,9 @@ $helper-flex:(
     }
     &light{
         background-color: #FBF2F2;
+    }
+    &dark{
+        background-color: $f-color-secondary;
     }
 }
 

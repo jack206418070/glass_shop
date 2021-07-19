@@ -2336,7 +2336,7 @@ a {
     display: block !important;
   }
   .d-md-none {
-    display: none;
+    display: none !important;
   }
   .d-md-flex {
     display: -webkit-box;
@@ -2618,6 +2618,10 @@ a {
 
 .bg-light {
   background-color: #FBF2F2;
+}
+
+.bg-dark {
+  background-color: #650300;
 }
 
 .bg-none {

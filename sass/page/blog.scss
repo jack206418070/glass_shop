@@ -1,0 +1,113 @@
+@import "../utils/variable";
+@import "../utils/mixin";
+
+
+.blog-menu{
+    margin-bottom: 40px;
+    @include pad{
+        padding-left: 39px;
+        padding-right: 47px;
+    }
+    li{
+        a{
+            display: block;
+            color:$white;
+            font-size: 20px;
+            padding: 12px 0;
+            margin-right: 48px;
+        }
+    }
+}
+
+.blog{
+    @include pad{
+        padding-left: 39px;
+        padding-right: 47px;
+    }
+    @include mobile{
+        .title-sm{
+            font-size: 28px;
+            line-height: 40px;
+            border-left: 4px solid #650300;
+        }
+    }
+}
+
+
+.blog-content{
+    margin-bottom: 56px;
+    li{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        @include mobile{
+            display: block;
+            margin-bottom: 20px !important;
+        }
+        img{
+            flex: 0 0 56.5%;
+            height: 400px;
+            @include pad{
+                flex: 0 0 48%;
+                height: 208px;
+            }
+            @include mobile{
+                margin-bottom: 8px;
+            }
+        }
+        .blog-content-text{
+            flex: 0 0 40.5%;
+            @include pad{
+                flex: 0 0 48.5%;
+            }
+            h3{
+                font-size: 32px;
+                color:#650300;
+                margin-bottom: 2px;
+                @include pad{
+                    font-size: 20px;
+                }
+                @include mobile{
+                    font-size: 16px;
+                }
+            }
+            .h4{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 24px;
+                h4{
+                    font-family: $font-english;
+                    font-size: 20px;
+                }
+                @include pad{
+                    margin-bottom: 32px;
+                    h4{
+                        font-size: 14px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+                @include mobile{
+                    margin-bottom: 0 !important;
+                }
+            }
+            >p{
+                font-size: 20px;
+                margin-bottom: 14px;
+                @include pad{
+                    font-size: 14px;
+                }
+            }
+            a{
+                font-family: $font-english;
+                font-size: 48px;
+                font-weight: bold;
+                color: #650300;
+                display: block;
+                text-align: right;
+            }
+        }
+    }
+}
