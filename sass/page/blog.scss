@@ -8,6 +8,10 @@
         padding-left: 39px;
         padding-right: 47px;
     }
+    @include mobile{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     li{
         a{
             display: block;
@@ -15,6 +19,10 @@
             font-size: 20px;
             padding: 12px 0;
             margin-right: 48px;
+            @include mobile{
+                font-size: 16px;
+                margin-right: 24px;
+            }
         }
     }
 }
@@ -25,6 +33,8 @@
         padding-right: 47px;
     }
     @include mobile{
+        padding-left: 15px;
+        padding-right: 15px;
         .title-sm{
             font-size: 28px;
             line-height: 40px;
@@ -53,6 +63,8 @@
             }
             @include mobile{
                 margin-bottom: 8px;
+                height: 217px;
+                width: 100%;
             }
         }
         .blog-content-text{
@@ -107,6 +119,155 @@
                 color: #650300;
                 display: block;
                 text-align: right;
+            }
+        }
+    }
+}
+.special{
+    @include pad{
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+    @include mobile{
+        padding-left: 15px;
+        padding-right: 15px;
+        .tag{
+            font-size: 14px;
+        }
+    }
+    .special-article{
+        flex: 0 0 74%;
+        @include pad{
+            flex: 0 0 70%;
+        }
+        @include mobile{
+            flex: 0 0 100%;
+        }
+        .special-title{
+            line-height: 70px;
+            @include mobile{
+                font-size: 20px;
+                line-height: 1.5;
+            }
+        }
+        .special-title-sm{
+            font-size: 28px;
+            @include mobile{
+                font-size: 14px;
+            }
+        }
+        .special-content{
+            @include mobile{
+                li{
+                    margin-bottom: 24px !important;
+                }
+            }
+            img{
+                width: 100%;
+                margin-bottom: 24px;
+                @include mobile{
+                    margin-bottom: 16px;
+                }
+            }
+            p{
+                color: #0A0A0A;
+                font-size: $font-xs;
+                @include mobile{
+                    font-size: $font-base;
+                }
+            }
+            
+        }
+    }
+}
+
+.tag-group{
+    flex: 0 0 24%;
+    margin-top: 78px;
+    padding-left: 20px;
+    @include mobile{
+        margin: 0;
+        padding: 0;
+        flex: 0 0 100%;
+        margin-bottom: 56px;
+    }
+    .tag-group-title{
+        img{
+            width: 38px;
+            height: auto;
+        }
+        p{
+            font-size: 28px;
+        }
+    }
+    .tag-group-content{
+        font-size: $font-s;
+        color: $f-color-primary;
+        @include pad{
+            font-size: $font-base;
+        }
+        @include mobile{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        li{
+            display: flex;
+            margin-bottom: 8px;
+            @include mobile{
+                flex: 0 0 30%;
+            }
+            p{
+                margin-right: 16px;
+                @include mobile{
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+}
+
+.share-icon{
+    p{
+        font-size: 20px;
+        color:#0A0A0A;
+    }
+    a{
+        color:#0A0A0A;
+        font-size: 24px;
+    }
+}
+
+.change-page{
+    flex: 0 0 74%;
+    border-top: 1px solid #707070;
+    padding-top: 20px;
+    @include pad{
+        margin-bottom: 96px !important;
+        flex: 0 0 100%;
+    }
+    @include mobile{
+        margin-bottom: 30px !important;
+    }
+    p{
+        font-size: 19px;
+    }
+    a{
+        font-size: 24px;
+        color:#0A0A0A;
+    }
+    @include mobile{
+        flex-direction: column;
+        align-items: flex-start;
+        p{
+            font-size: 14px;
+        }
+        a{
+            font-size: 16px;
+        }
+        .next{
+            flex-direction: row;
+            a{
+                margin-right: 4px !important;
             }
         }
     }
