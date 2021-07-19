@@ -112,7 +112,7 @@ a {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .title-sm {
     font-size: 24px;
   }
@@ -2306,7 +2306,7 @@ a {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .mr-sm-0 {
     margin-right: 0 !important;
   }
@@ -2351,7 +2351,7 @@ a {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .d-sm-block {
     display: block !important;
   }
@@ -2524,7 +2524,7 @@ a {
           flex-direction: column;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .flex-md-col-reverse {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -2569,7 +2569,7 @@ a {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .order-sm-1 {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -2716,7 +2716,7 @@ a {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .b-sm-none {
     border: 0 !important;
   }
@@ -2773,7 +2773,7 @@ a {
   position: absolute;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .p-sm-absolute {
     position: absolute;
   }
@@ -2904,7 +2904,7 @@ a {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .card {
     margin-bottom: 16px;
     -webkit-box-flex: 0;
@@ -2980,7 +2980,7 @@ a {
   color: #ffffff;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .pagination .pagination-item a {
     font-size: 14px;
   }
@@ -3097,7 +3097,7 @@ form .form-group .form-control:focus {
   outline: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   form .form-group .form-control {
     font-size: 16px;
   }
@@ -3460,7 +3460,7 @@ form .form-group .form-control:focus {
   padding-left: 0;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .md-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -3509,7 +3509,7 @@ form .form-group .form-control:focus {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .header {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -3553,7 +3553,7 @@ form .form-group .form-control:focus {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .footer {
     padding: 25px 15px;
   }
@@ -3578,7 +3578,7 @@ form .form-group .form-control:focus {
   margin-bottom: 42px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .footer .contact-group {
     display: block;
   }
@@ -3604,7 +3604,7 @@ form .form-group .form-control:focus {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .footer .contact-group .menu a {
     display: none;
   }
@@ -3626,7 +3626,7 @@ form .form-group .form-control:focus {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .footer .contact-group .icon-group {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 30%;
@@ -3634,7 +3634,7 @@ form .form-group .form-control:focus {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .footer .contact-item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 70%;
@@ -3658,7 +3658,7 @@ form .form-group .form-control:focus {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .footer .contact-item img {
     height: 16px;
     width: 16px;
@@ -3680,7 +3680,7 @@ form .form-group .form-control:focus {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .footer .contact-item a {
     font-size: 16px;
   }
@@ -3701,7 +3701,7 @@ form .form-group .form-control:focus {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .footer .copyRight {
     -webkit-box-align: start;
         -ms-flex-align: start;

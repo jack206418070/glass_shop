@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .question {
     padding-right: 15px;
     padding-left: 15px;

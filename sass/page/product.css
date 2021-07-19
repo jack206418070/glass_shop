@@ -70,7 +70,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .product-menu li {
     width: 115px;
     height: 30px;
@@ -116,7 +116,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .banner {
     margin-bottom: 32px;
   }
@@ -215,7 +215,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .product {
     margin-bottom: 20px;
     padding-right: 15px;
