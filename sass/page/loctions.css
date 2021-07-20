@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .loctions {
     padding-right: 15px;
     padding-left: 15px;
@@ -49,7 +49,7 @@
   height: 45px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .loctions .select-block label {
     font-size: 14px;
   }
@@ -75,7 +75,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .map {
     padding-right: 15px;
     padding-left: 15px;

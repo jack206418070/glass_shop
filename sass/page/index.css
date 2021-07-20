@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .outside-p {
     padding-top: 32px;
     padding-bottom: 40px;
@@ -47,7 +47,7 @@
   font-family: "Noto Sans", sans-serif;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .banner {
     height: 394px;
   }
@@ -81,7 +81,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .banner .banner-text {
     width: 80%;
     top: 164px;
@@ -126,7 +126,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .about .about-content li {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
@@ -191,7 +191,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .classic .classic-content li {
     display: block;
     position: relative;
@@ -284,7 +284,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .design .design-content {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -350,7 +350,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .recommend .recommend-content li {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
@@ -386,7 +386,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .connection {
     padding-right: 15px;
     padding-left: 15px;
