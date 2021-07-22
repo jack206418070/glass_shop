@@ -40,7 +40,7 @@
         }
         @include pad{
             width: 60%;
-            left: 38%;
+            left: 28%;
             right: 38.5px;
             h3{
                 font-size: $font-xs;
@@ -52,7 +52,7 @@
         @include mobile{
             width: 80%;
             top: 164px;
-            left: 19%;
+            left: 14%;
             h3{
                 font-size: $font-base;
             }
