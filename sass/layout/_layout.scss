@@ -13,7 +13,7 @@
             text-decoration: none;
             font-family: $font-chinese;
             display: block;
-            margin-left: 64px;
+            padding: 40px 32px;
             font-size: $font-xs;
             &:hover{
                 color: #000000;
@@ -21,8 +21,13 @@
         }
     }
     @include pad{
-        padding-right: 39px;
-        padding-left: 39px;
+        padding-left: 40px;
+        padding-right: 0px;
+        .menu{
+            a{
+                padding: 40px;
+            }
+        }
     }
     @include mobile{
         flex-wrap: wrap;

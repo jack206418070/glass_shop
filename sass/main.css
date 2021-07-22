@@ -3501,7 +3501,7 @@ form .form-group .form-control:focus {
   text-decoration: none;
   font-family: "Noto Sans", sans-serif;
   display: block;
-  margin-left: 64px;
+  padding: 40px 32px;
   font-size: 20px;
 }
 
@@ -3511,8 +3511,11 @@ form .form-group .form-control:focus {
 
 @media screen and (max-width: 768px) {
   .header {
-    padding-right: 39px;
-    padding-left: 39px;
+    padding-left: 40px;
+    padding-right: 0px;
+  }
+  .header .menu a {
+    padding: 40px;
   }
 }
 
