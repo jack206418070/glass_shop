@@ -37,6 +37,12 @@
     }
 }
 .map{
+    .map-img{
+        flex: 0 0 57%;
+        img{
+            height: 100%;
+        }
+    }
     @include pad{
         margin-bottom: 96px;
         .card{  

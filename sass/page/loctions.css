@@ -60,6 +60,16 @@
   }
 }
 
+.map .map-img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 57%;
+          flex: 0 0 57%;
+}
+
+.map .map-img img {
+  height: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .map {
     margin-bottom: 96px;

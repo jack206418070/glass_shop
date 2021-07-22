@@ -90,6 +90,13 @@ a {
   padding-left: 0px !important;
 }
 
+@media (max-width: 1110px) {
+  .container {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+
 .title-sm {
   color: #650300;
   font-size: 48px;
