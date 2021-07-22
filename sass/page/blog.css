@@ -24,8 +24,11 @@
 
 @media screen and (max-width: 576px) {
   .blog-menu {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .blog-menu ul {
+    margin: 0 auto;
   }
 }
 

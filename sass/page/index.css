@@ -198,6 +198,10 @@
   }
   .classic .classic-content img {
     height: 134px;
+    display: block;
+    margin: 0 auto;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .classic .classic-content .pa-set {
     width: 36px;
@@ -205,15 +209,6 @@
     top: 0;
     right: 245px;
     left: 64px;
-    bottom: 0;
-    margin: auto !important;
-  }
-  .classic .classic-content h3 {
-    width: 114px;
-    height: 37px;
-    top: 0;
-    right: 0;
-    left: 0;
     bottom: 0;
     margin: auto !important;
   }
@@ -317,6 +312,8 @@
   width: 100%;
   vertical-align: middle;
   height: 255px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .recommend .recommend-content .recommend-content-item {

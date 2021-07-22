@@ -9,8 +9,11 @@
         padding-right: 47px;
     }
     @include mobile{
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+        ul{
+            margin: 0 auto;
+        }
     }
     li{
         a{
