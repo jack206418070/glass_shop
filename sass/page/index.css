@@ -231,25 +231,19 @@
 }
 
 .design .design-content-item {
-  -webkit-filter: brightness(1);
-          filter: brightness(1);
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 48.75%;
-          flex: 0 0 48.75%;
   background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/product-8.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 455px;
 }
 
 .design .design-content-item-second {
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/product-9.png");
+}
+
+.design .design-content-item, .design .design-content-item-second {
   -webkit-filter: brightness(1);
           filter: brightness(1);
   -webkit-box-flex: 0;
       -ms-flex: 0 0 48.75%;
           flex: 0 0 48.75%;
-  background-image: url("https://hexschool.github.io/webLayoutTraining1st/week3/product-9.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -257,13 +251,13 @@
 }
 
 .design p {
-  height: 95px;
+  width: 100%;
   font-size: 72px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -276,7 +270,6 @@
   }
   .design p {
     font-size: 32px;
-    height: 43px;
   }
 }
 
