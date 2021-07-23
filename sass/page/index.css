@@ -152,6 +152,11 @@
           align-items: center;
 }
 
+.classic .classic-content li .classic-content-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .classic .classic-content li img {
   height: 320px;
   vertical-align: middle;
@@ -200,17 +205,13 @@
     height: 134px;
     display: block;
     margin: 0 auto;
-    -o-object-fit: cover;
-       object-fit: cover;
   }
   .classic .classic-content .pa-set {
-    width: 36px;
-    height: 36px;
-    top: 0;
-    right: 245px;
-    left: 64px;
-    bottom: 0;
-    margin: auto !important;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 }
 
